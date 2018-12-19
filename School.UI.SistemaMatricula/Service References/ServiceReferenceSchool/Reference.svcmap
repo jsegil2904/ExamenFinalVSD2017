@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="d2523511-a4da-4b09-8868-a966ee4c483e" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:59888/ServiceSchool.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ServiceSchool.xsd" MetadataType="Schema" ID="8a6273ab-b183-4c07-afbe-69f0e8321ade" SourceId="1" SourceUrl="http://localhost:59888/ServiceSchool.svc?xsd=xsd0" />
+    <MetadataFile FileName="ServiceSchool1.xsd" MetadataType="Schema" ID="66de3292-9653-4512-b6ac-2919d5ac4e27" SourceId="1" SourceUrl="http://localhost:59888/ServiceSchool.svc?xsd=xsd1" />
+    <MetadataFile FileName="ServiceSchool2.xsd" MetadataType="Schema" ID="e10ecbfe-f40e-4cbe-bd71-0ac02db51fbe" SourceId="1" SourceUrl="http://localhost:59888/ServiceSchool.svc?xsd=xsd2" />
+    <MetadataFile FileName="ServiceSchool3.xsd" MetadataType="Schema" ID="ea891aaa-d231-4f0e-885c-fc1a6f697ed6" SourceId="1" SourceUrl="http://localhost:59888/ServiceSchool.svc?xsd=xsd3" />
+    <MetadataFile FileName="ServiceSchool.disco" MetadataType="Disco" ID="b693d6ab-bfe8-4963-9dda-094ae3950f9e" SourceId="1" SourceUrl="http://localhost:59888/ServiceSchool.svc?disco" />
+    <MetadataFile FileName="ServiceSchool.wsdl" MetadataType="Wsdl" ID="62b430a6-25ee-42c9-9a9b-64194dc6f66b" SourceId="1" SourceUrl="http://localhost:59888/ServiceSchool.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

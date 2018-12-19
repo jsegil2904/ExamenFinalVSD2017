@@ -1,0 +1,10 @@
+E:\Drive\VISUAL_STUDIO_DEVELOPER\ExamenFinal\Schoolxyz\School.Entities.Base\bin\Debug\School.Entities.Base.dll.config
+E:\Drive\VISUAL_STUDIO_DEVELOPER\ExamenFinal\Schoolxyz\School.Entities.Base\bin\Debug\School.Entities.Base.dll
+E:\Drive\VISUAL_STUDIO_DEVELOPER\ExamenFinal\Schoolxyz\School.Entities.Base\bin\Debug\School.Entities.Base.pdb
+E:\Drive\VISUAL_STUDIO_DEVELOPER\ExamenFinal\Schoolxyz\School.Entities.Base\bin\Debug\EntityFramework.dll
+E:\Drive\VISUAL_STUDIO_DEVELOPER\ExamenFinal\Schoolxyz\School.Entities.Base\bin\Debug\EntityFramework.SqlServer.dll
+E:\Drive\VISUAL_STUDIO_DEVELOPER\ExamenFinal\Schoolxyz\School.Entities.Base\bin\Debug\EntityFramework.xml
+E:\Drive\VISUAL_STUDIO_DEVELOPER\ExamenFinal\Schoolxyz\School.Entities.Base\bin\Debug\EntityFramework.SqlServer.xml
+E:\Drive\VISUAL_STUDIO_DEVELOPER\ExamenFinal\Schoolxyz\School.Entities.Base\obj\Debug\School.Entities.Base.csprojResolveAssemblyReference.cache
+E:\Drive\VISUAL_STUDIO_DEVELOPER\ExamenFinal\Schoolxyz\School.Entities.Base\obj\Debug\School.Entities.Base.dll
+E:\Drive\VISUAL_STUDIO_DEVELOPER\ExamenFinal\Schoolxyz\School.Entities.Base\obj\Debug\School.Entities.Base.pdb

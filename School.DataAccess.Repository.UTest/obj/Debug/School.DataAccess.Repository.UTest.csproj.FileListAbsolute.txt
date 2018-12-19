@@ -1,0 +1,16 @@
+E:\Drive\VISUAL_STUDIO_DEVELOPER\ExamenFinal\Schoolxyz\School.DataAccess.Repository.UTest\bin\Debug\School.DataAccess.Repository.UTest.dll.config
+E:\Drive\VISUAL_STUDIO_DEVELOPER\ExamenFinal\Schoolxyz\School.DataAccess.Repository.UTest\bin\Debug\School.DataAccess.Repository.UTest.dll
+E:\Drive\VISUAL_STUDIO_DEVELOPER\ExamenFinal\Schoolxyz\School.DataAccess.Repository.UTest\bin\Debug\School.DataAccess.Repository.UTest.pdb
+E:\Drive\VISUAL_STUDIO_DEVELOPER\ExamenFinal\Schoolxyz\School.DataAccess.Repository.UTest\bin\Debug\EntityFramework.dll
+E:\Drive\VISUAL_STUDIO_DEVELOPER\ExamenFinal\Schoolxyz\School.DataAccess.Repository.UTest\bin\Debug\EntityFramework.SqlServer.dll
+E:\Drive\VISUAL_STUDIO_DEVELOPER\ExamenFinal\Schoolxyz\School.DataAccess.Repository.UTest\bin\Debug\School.DataAccess.Repository.dll
+E:\Drive\VISUAL_STUDIO_DEVELOPER\ExamenFinal\Schoolxyz\School.DataAccess.Repository.UTest\bin\Debug\School.DataAccess.Repository.Interfaces.dll
+E:\Drive\VISUAL_STUDIO_DEVELOPER\ExamenFinal\Schoolxyz\School.DataAccess.Repository.UTest\bin\Debug\School.Entities.Base.dll
+E:\Drive\VISUAL_STUDIO_DEVELOPER\ExamenFinal\Schoolxyz\School.DataAccess.Repository.UTest\bin\Debug\School.DataAccess.Repository.Interfaces.pdb
+E:\Drive\VISUAL_STUDIO_DEVELOPER\ExamenFinal\Schoolxyz\School.DataAccess.Repository.UTest\bin\Debug\School.DataAccess.Repository.pdb
+E:\Drive\VISUAL_STUDIO_DEVELOPER\ExamenFinal\Schoolxyz\School.DataAccess.Repository.UTest\bin\Debug\School.Entities.Base.pdb
+E:\Drive\VISUAL_STUDIO_DEVELOPER\ExamenFinal\Schoolxyz\School.DataAccess.Repository.UTest\bin\Debug\EntityFramework.xml
+E:\Drive\VISUAL_STUDIO_DEVELOPER\ExamenFinal\Schoolxyz\School.DataAccess.Repository.UTest\bin\Debug\EntityFramework.SqlServer.xml
+E:\Drive\VISUAL_STUDIO_DEVELOPER\ExamenFinal\Schoolxyz\School.DataAccess.Repository.UTest\obj\Debug\School.DataAccess.Repository.UTest.csprojResolveAssemblyReference.cache
+E:\Drive\VISUAL_STUDIO_DEVELOPER\ExamenFinal\Schoolxyz\School.DataAccess.Repository.UTest\obj\Debug\School.DataAccess.Repository.UTest.dll
+E:\Drive\VISUAL_STUDIO_DEVELOPER\ExamenFinal\Schoolxyz\School.DataAccess.Repository.UTest\obj\Debug\School.DataAccess.Repository.UTest.pdb

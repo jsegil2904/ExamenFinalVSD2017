@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/School.Entities.Base" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/School.Entities.Base" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="ArrayOfAlumno">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Alumno" nillable="true" type="tns:Alumno" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfAlumno" nillable="true" type="tns:ArrayOfAlumno" />
+  <xs:complexType name="Alumno">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AlumnoID" type="xs:int" />
+      <xs:element minOccurs="0" name="Apellidos" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Direccion" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FechaNacimiento" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Matricula" nillable="true" type="tns:ArrayOfMatricula" />
+      <xs:element minOccurs="0" name="Nombres" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Notas" nillable="true" type="tns:ArrayOfNotas" />
+      <xs:element minOccurs="0" name="Sexo" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Alumno" nillable="true" type="tns:Alumno" />
+  <xs:complexType name="ArrayOfMatricula">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Matricula" nillable="true" type="tns:Matricula" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfMatricula" nillable="true" type="tns:ArrayOfMatricula" />
+  <xs:complexType name="Matricula">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Alumno" nillable="true" type="tns:Alumno" />
+      <xs:element minOccurs="0" name="AlumnoID" type="xs:int" />
+      <xs:element minOccurs="0" name="Fecha" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Grado" nillable="true" type="tns:Grado" />
+      <xs:element minOccurs="0" name="GradoID" type="xs:int" />
+      <xs:element minOccurs="0" name="MatriculoID" type="xs:int" />
+      <xs:element minOccurs="0" name="SeccionID" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Matricula" nillable="true" type="tns:Matricula" />
+  <xs:complexType name="Grado">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Curso" nillable="true" type="tns:ArrayOfCurso" />
+      <xs:element minOccurs="0" name="GradoID" type="xs:int" />
+      <xs:element minOccurs="0" name="Matricula" nillable="true" type="tns:ArrayOfMatricula" />
+      <xs:element minOccurs="0" name="Nivel" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Seccion" nillable="true" type="tns:ArrayOfSeccion" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Grado" nillable="true" type="tns:Grado" />
+  <xs:complexType name="ArrayOfCurso">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Curso" nillable="true" type="tns:Curso" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfCurso" nillable="true" type="tns:ArrayOfCurso" />
+  <xs:complexType name="Curso">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CursoID" type="xs:int" />
+      <xs:element minOccurs="0" name="Grado" nillable="true" type="tns:Grado" />
+      <xs:element minOccurs="0" name="GradoID" type="xs:int" />
+      <xs:element minOccurs="0" name="Nombre" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Notas" nillable="true" type="tns:ArrayOfNotas" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Curso" nillable="true" type="tns:Curso" />
+  <xs:complexType name="ArrayOfNotas">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Notas" nillable="true" type="tns:Notas" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfNotas" nillable="true" type="tns:ArrayOfNotas" />
+  <xs:complexType name="Notas">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Alumno" nillable="true" type="tns:Alumno" />
+      <xs:element minOccurs="0" name="AlumnoID" type="xs:int" />
+      <xs:element minOccurs="0" name="Curso" nillable="true" type="tns:Curso" />
+      <xs:element minOccurs="0" name="CursoID" type="xs:int" />
+      <xs:element minOccurs="0" name="Nota" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" name="NotaID" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Notas" nillable="true" type="tns:Notas" />
+  <xs:complexType name="ArrayOfSeccion">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Seccion" nillable="true" type="tns:Seccion" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfSeccion" nillable="true" type="tns:ArrayOfSeccion" />
+  <xs:complexType name="Seccion">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Grado" nillable="true" type="tns:Grado" />
+      <xs:element minOccurs="0" name="GradoID" type="xs:int" />
+      <xs:element minOccurs="0" name="Nombre" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SeccionID" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Seccion" nillable="true" type="tns:Seccion" />
+  <xs:complexType name="ArrayOfGrado">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Grado" nillable="true" type="tns:Grado" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfGrado" nillable="true" type="tns:ArrayOfGrado" />
+</xs:schema>

@@ -1,0 +1,7 @@
+E:\Drive\VISUAL_STUDIO_DEVELOPER\ExamenFinal\Schoolxyz\School.DataAccess.Repository.Interfaces\bin\Debug\School.DataAccess.Repository.Interfaces.dll
+E:\Drive\VISUAL_STUDIO_DEVELOPER\ExamenFinal\Schoolxyz\School.DataAccess.Repository.Interfaces\bin\Debug\School.DataAccess.Repository.Interfaces.pdb
+E:\Drive\VISUAL_STUDIO_DEVELOPER\ExamenFinal\Schoolxyz\School.DataAccess.Repository.Interfaces\bin\Debug\School.Entities.Base.dll
+E:\Drive\VISUAL_STUDIO_DEVELOPER\ExamenFinal\Schoolxyz\School.DataAccess.Repository.Interfaces\bin\Debug\School.Entities.Base.pdb
+E:\Drive\VISUAL_STUDIO_DEVELOPER\ExamenFinal\Schoolxyz\School.DataAccess.Repository.Interfaces\obj\Debug\School.DataAccess.Repository.Interfaces.csprojResolveAssemblyReference.cache
+E:\Drive\VISUAL_STUDIO_DEVELOPER\ExamenFinal\Schoolxyz\School.DataAccess.Repository.Interfaces\obj\Debug\School.DataAccess.Repository.Interfaces.dll
+E:\Drive\VISUAL_STUDIO_DEVELOPER\ExamenFinal\Schoolxyz\School.DataAccess.Repository.Interfaces\obj\Debug\School.DataAccess.Repository.Interfaces.pdb
